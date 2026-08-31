@@ -1,10 +1,10 @@
-Iris Clustering using K-Means and Hierarchical Clustering
+## Iris using K-Means and Hierarchical Clustering
 
-Project Overview
+### Project Overview
 
 This project focuses on applying Unsupervised Machine Learning techniques to the Iris dataset. The main objective is to group similar Iris flowers into clusters based on their measurements without using the species labels.
 
-Dataset
+### Dataset
 
 The Iris dataset is obtained from the Scikit-learn library. It contains 150 samples and four numerical features:
 
@@ -15,7 +15,7 @@ The Iris dataset is obtained from the Scikit-learn library. It contains 150 samp
 
 The species/target column is not used during clustering because this is an unsupervised learning problem.
 
-Objectives
+### Objectives
 
 * Load and preprocess the Iris dataset.
 * Standardize the numerical features.
@@ -25,7 +25,7 @@ Objectives
 * Visualize the clusters and dendrogram.
 * Compare the results of both clustering techniques.
 
-Technologies Used
+### Technologies Used
 
 * Python
 * Jupyter Notebook
@@ -34,7 +34,7 @@ Technologies Used
 * Scikit-learn
 * SciPy
 
-Methodology
+### Methodology
 
 1. Data Loading
 
@@ -56,7 +56,7 @@ Agglomerative Hierarchical Clustering is applied with 3 clusters. A dendrogram i
 
 The clusters are visualized using Petal Length and Petal Width. The results of K-Means and Hierarchical Clustering are compared to understand how both algorithms group the Iris data.
 
-Key Insights
+### Key Insights
 
 * K-Means successfully grouped the Iris dataset into 3 clusters.
 * Petal Length and Petal Width provide clear separation between the clusters.
@@ -64,6 +64,6 @@ Key Insights
 * The Hierarchical Clustering dendrogram shows how data points are progressively merged.
 * Both clustering techniques identified meaningful groups in the Iris dataset.
 
-Conclusion
+### Conclusion
 
 The Iris dataset was successfully analyzed using K-Means and Hierarchical Clustering techniques. The Elbow Method indicated that three clusters were suitable for K-Means. Both methods identified meaningful groups based on the similarity of Iris flower features. Overall, clustering techniques were effective in discovering natural patterns in the dataset.
